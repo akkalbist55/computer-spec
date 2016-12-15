@@ -1,0 +1,45 @@
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Dosis', sans-serif;
+$main-blue: #337ab7;
+$footer-height: 45px;
+
+.navbar-default {
+  font-family: $secondary-font;
+  background-color: white;
+}
+
+
+html, body {
+ font-family: $primary-font;
+}
+
+.navbar-default .navbar-brand {
+  font-weight: 100;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: $main-blue;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -$footer-height;
+  /* Pad bottom by footer height */
+  padding: 0 0 $footer-height;
+}
+
+
+.footer {
+  height: $footer-height;
+}
