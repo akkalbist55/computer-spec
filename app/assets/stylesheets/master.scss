@@ -18,7 +18,37 @@ html, body {
   font-size: 30px;
   letter-spacing: 2px;
   color: $main-blue;
+  float: right;
+
 }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #B9472F;
+    position: fixed;
+    overflow: auto;
+}
+
+li a:hover {
+    background-color: #113;
+
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
 
 
 /* Sticky footer styles
